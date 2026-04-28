@@ -1,0 +1,4 @@
+scenario_id,spot,strike,rate,volatility,maturity,option_type,position_contracts,contract_multiplier,shock_spot_pct,shock_vol_abs
+CALL_DELTA_BOOK,100,100,0.03,0.22,0.75,call,35,100,0.015,0.02
+PUT_PROTECTION,92,96,0.028,0.25,1.0,put,20,100,-0.02,0.015
+VEGA_EVENT,108,110,0.031,0.31,0.5,call,15,100,-0.01,0.04
